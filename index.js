@@ -41,7 +41,7 @@ app.use(express.urlencoded())
  * Simple homepage for the backend app
  */
 app.get('/', (req, res) => {
-  res.send('Hello, World!')
+  res.send('Welcome to the AvoChat Backend!')
 })
 
 /**
