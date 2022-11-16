@@ -28,6 +28,8 @@ require('dotenv').config()
 
 /**
  * These are keys, app id's and secrets required for the StreamChat client to connect and work properly
+ * Contained in a .env file such that it will not be pushed to Github, and therefore maintains a semblance
+ * of security and privacy
  */
 const api_key = process.env.STREAM_API_KEY
 const api_secret = process.env.STREAM_API_SECRET
